@@ -28,7 +28,10 @@ if __name__=="__main__":
             for subdir in ['controller', 'model', 'view']:
                 os.makedirs(os.path.join(fullpath, subdir))
             with open(os.path.join(fullpath, 'main.py'), 'w') as fp:
-                pass
+                fp.write("""from vysual import App
+if __name__=="__main__":
+    app = App()
+    app.run()""")
         except Exception as e:
             raise Exception(str(e))
     else:
