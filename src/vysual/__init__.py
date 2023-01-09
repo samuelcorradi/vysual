@@ -212,7 +212,7 @@ class View(object):
                 e.insert(0,text)
             e.pack()
         elif tagname=='frame':
-            bg = 'orange' if 'bg' not in el.attributes else el.attributes['bg'].value
+            bg = None if 'bg' not in el.attributes else el.attributes['bg'].value
             fr = tk.Frame(parent, bg=bg)
             self.__set_element(fr, id if id else self.gen_id('frame'))
             fr.pack()
