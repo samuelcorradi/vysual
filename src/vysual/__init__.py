@@ -230,6 +230,4 @@ class View(object):
             return
 
 if __name__=="__main__":
-    vw = View("/Users/samuelcorradi/Desktop/programacao/programas_python/gui/tests/appX/view/main.xml")
-    vw.build()
-    vw.root.mainloop()
+    raise Exception("The init file module was not created to be called directly.")
