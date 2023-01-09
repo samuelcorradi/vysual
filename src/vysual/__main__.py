@@ -29,6 +29,7 @@ if __name__=="__main__":
                 os.makedirs(os.path.join(fullpath, subdir))
             with open(os.path.join(fullpath, 'main.py'), 'w') as fp:
                 fp.write("""from vysual import App
+                
 if __name__=="__main__":
     app = App()
     app.run()""")
