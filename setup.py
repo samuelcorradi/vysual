@@ -1,2 +1,2 @@
 from distutils.core import setup
-setup(name='gui', version='0.0.1', packages=['gui'])
+setup(name='vysual', version='0.0.1', packages=['vysual'])
