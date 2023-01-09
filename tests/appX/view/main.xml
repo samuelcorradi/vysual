@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<window title="Janela" width="300" height="300"><frame>
+Berenice!
+<button id="botao" text="Acorda" onclick="teste" />
+<button id="about" text="About" onclick="about" />
+<hr with="2" />
+<list color="black" background="white" onclick="seleciona_lista">
+<option value="A" text="1opcao" />
+<option value="B" text="2opcao" />
+<option value="C" text="3opcao" />
+</list>
+</frame>
+</window>

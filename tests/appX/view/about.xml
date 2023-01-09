@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<window title="About" width="200" height="300"><frame>
+<input text="Sobre!" color="black" background="red" />
+<button id="fechar" text="Ok" onclick="fechar" />
+</frame>
+</window>
