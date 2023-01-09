@@ -1,4 +1,4 @@
-from gui import Controller as CBase
+from vysual import Controller as CBase
 
 class Controller(CBase):
 
